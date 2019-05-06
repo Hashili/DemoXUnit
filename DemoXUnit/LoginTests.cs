@@ -10,7 +10,7 @@ namespace DemoXUnit
     public class LoginTests:Driver
     {
         [Fact]
-        public void LoginTest()
+        public void SimpleTestOne()
         {
             string pageTitle = driver.Title;
             Console.WriteLine("The web page title is {0}", pageTitle);
@@ -18,7 +18,7 @@ namespace DemoXUnit
         }
 
         [Fact]
-        public void LoginTestAgain()
+        public void SimpleTestTwo()
         {
             string pageTitle = driver.Title;
             Assert.Equal(pageTitle, pageTitle);
@@ -29,7 +29,7 @@ namespace DemoXUnit
         [InlineData("hashili")]
         [InlineData("hashiliTitle")]
         [InlineData("hashiliNewTitle")]
-        public void LoginTestAgainAgaina(string name)
+        public void ParameterizedTestWithInlineAttribute(string name)
         {
             string pageTitle = driver.Title;
             Assert.Equal(name, pageTitle);
@@ -38,7 +38,7 @@ namespace DemoXUnit
 
         [Theory]
         [ClassData(typeof(TestData))]
-        public void LoginTestAgainAgainAgaina(string name)
+        public void ParameterizedTestWithClassDataAttribute(string name)
         {
             string pageTitle = driver.Title;
             Assert.Equal(name, pageTitle);
@@ -47,7 +47,7 @@ namespace DemoXUnit
 
         [Theory]
         [MemberData(nameof(Data))]
-        public void LoginTestAgainAgainAgainAgain(string name)
+        public void ParameterizedTestWithMemberDataAttribute(string name)
         {
             string pageTitle = driver.Title;
             Assert.Equal(name, pageTitle);
