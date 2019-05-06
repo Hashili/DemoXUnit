@@ -6,10 +6,12 @@ C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\DemoXUnit.dll.config
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\DemoXUnit.dll
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\DemoXUnit.pdb
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\WebDriver.dll
+C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\WebDriver.Support.dll
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.assert.dll
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.core.dll
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.execution.desktop.dll
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\WebDriver.xml
+C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\WebDriver.Support.xml
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.assert.xml
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.core.xml
 C:\Users\habdul\source\repos\DemoXUnit\DemoXUnit\bin\Debug\xunit.execution.desktop.xml

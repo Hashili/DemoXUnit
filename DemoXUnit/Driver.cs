@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,14 @@ namespace DemoXUnit
 
         public void Dispose()
         {
+            var counter = DateTime.Now.Ticks.ToString();
+            var screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+            var filePath = @"C:\screenshot\ss_"+counter+".png";
+            screenshot.SaveAsFile(filePath, ScreenshotImageFormat.Jpeg);
             driver.Quit();
         }
+
+        
     }
-}
+    }
+
